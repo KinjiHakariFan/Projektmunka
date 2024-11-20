@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="Tudáspróba.css">
+<title>Tudáspróba</title>
+</head>
+<body>
+    <main class="container container-fluid ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <h2><a class="navbar-brand float-start" href="#">Tananyag</a></h2>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <h5><a class="nav-link active" aria-current="page" href="#">Tudáspróba</a></h5>
+                  </li>
+                  <li class="nav-item" id="kapcsolat">
+                    <h5><a class="nav-link" href="#">Kapcsolat</a></h5>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+            <div class="row">
+              <div class="col-12 col-md-6">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Melyik a helyes ciklus? (Első kérdés)</h5>
+                          <form id="question1">
+                              <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="q1" id="q1a" value="for">
+                                  <label class="form-check-label" for="q1a">for</label>
+                              </div>
+                              <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="q1" id="q1b" value="while">
+                                  <label class="form-check-label" for="q1b">while</label>
+                              </div>
+                              <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="q1" id="q1c" value="doWhile">
+                                  <label class="form-check-label" for="q1c">do...while</label>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="card-footer" id="result1">Válasz nem ellenőrizve</div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Mi a fő különbség a for és a while ciklus között?</h5>
+                          <form id="question2">
+                              <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="q2" id="q2a" value="while">
+                                  <label class="form-check-label" for="q2a">A for ciklus nem használ feltételt.</label>
+                              </div>
+                              <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="q2" id="q2b" value="for">
+                                  <label class="form-check-label" for="q2b">A while ciklus nem használ feltételt.</label>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="card-footer" id="result2">Válasz nem ellenőrizve</div>
+                  </div>
+              </div>
+              <div class="col-12">
+                  <div class="card">
+                      <div class="card-body text-center">
+                          <button id="checkAnswers" class="btn btn-primary w-100">Eredmény kiértékelése</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    <script src="Tudáspróba.JS"></script>
+</body>
+</html>
