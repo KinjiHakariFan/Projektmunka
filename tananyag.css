@@ -1,6 +1,3 @@
-main {
-    background-color: #f0d596;
-}
 #orakeret {
     margin:  24px 0 48px 0;
     width:  612px;
@@ -20,13 +17,13 @@ main {
     margin: 0 auto 0 auto;
 }
 body {
+    background-color: #f0d596;
     align-items: center;
     font-family: Arial, sans-serif;
     display: flex;
     margin: 0;
-    background-color: #f4f4f4;
-    
 }
+   
 .card {
     background-color: #fff;
     border-radius: 10px;

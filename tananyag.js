@@ -18,9 +18,11 @@ function koszones() {
     }
     if (nev != '') {
         let img=document.getElementById("kep1"); img.src="image.png";
-    let img2=document.getElementById("kep2"); img2.src="niga.png";
+        let img2=document.getElementById("kep2"); img2.src="niga.png";
     }
-    
+    if (nev == '') {
+        pass
+    }
     
 }
 function frissit(){
